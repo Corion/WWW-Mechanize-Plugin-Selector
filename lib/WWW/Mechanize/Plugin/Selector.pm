@@ -44,6 +44,17 @@ sub selector {
 
 1;
 
+=head1 USE IN YOUR MODULE
+
+If you are not using L<WWW::Mechanize::Pluggable>, you can import this
+code in your module via the following:
+
+  use WWW::Mechanize::Plugin::Selector;
+  {
+    no warnings 'once';
+    *selector = \&WWW::Mechanize::Plugin::Selector::selector;
+  }
+
 =head1 REPOSITORY
 
 The public repository of this module is
