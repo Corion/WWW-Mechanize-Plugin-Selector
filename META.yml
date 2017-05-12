@@ -1,0 +1,27 @@
+---
+abstract: 'CSS selector method for WWW::Mechanize'
+author:
+  - 'Max Maischein <corion@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: '0'
+  Test::More: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 0
+generated_by: 'ExtUtils::MakeMaker version 7.24, CPAN::Meta::Converter version 2.143240'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: WWW-Mechanize-Plugin-Selector
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  HTML::Selector::XPath: '0'
+  perl: '5.006'
+resources:
+  repository: git://github.com/Corion/WWW-Mechanize-Plugin-Selector.git
+version: '0.16'
+x_static_install: 1
